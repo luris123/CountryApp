@@ -10,7 +10,6 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#d0d0c0"
-
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,6 +21,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.countryapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -29,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2aadf2c3-84a8-4c07-a9e0-366fce224d70"
+      }
     }
   }
 }
